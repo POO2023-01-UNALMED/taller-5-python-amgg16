@@ -11,13 +11,13 @@ class Ave(Animal):
         Ave._listado.append(self)
 
     @classmethod
-    def get_listado(cls):
+    def getListado(cls):
         return cls._listado
     @classmethod
-    def set_listado(cls, listado):
+    def setListado(cls, listado):
         cls._listado=listado
 
-    def get_colorPlumas(self):
+    def getColorPlumas(self):
         return self._colorPlumas
     def set_colorPlumas(self, colorPlumas):
         self._colorPlumas=colorPlumas

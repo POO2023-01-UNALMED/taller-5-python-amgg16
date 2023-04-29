@@ -12,20 +12,20 @@ class Anfibio(Animal):
         Anfibio._listado.append(self)
 
     @classmethod
-    def get_listado(cls):
+    def getListado(cls):
         return cls._listado
     @classmethod
-    def set_listado(cls, listado):
+    def setListado(cls, listado):
         cls._listado=listado
     
-    def get_colorPiel(self):
+    def getColorPiel(self):
         return self._colorPiel
-    def set_colorPiel(self, colorPiel):
+    def setColorPiel(self, colorPiel):
         self._colorPiel=colorPiel
 
-    def get_venenoso(self):
+    def isVenenoso(self):
         return self._venenoso
-    def set_venenoso(self, venenoso):
+    def setVenenoso(self, venenoso):
         self._venenoso=venenoso
 
     @classmethod

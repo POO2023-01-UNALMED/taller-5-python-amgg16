@@ -12,20 +12,20 @@ class Reptil(Animal):
         Reptil._listado.append(self)
 
     @classmethod
-    def get_listado(cls):
+    def getListado(cls):
         return cls._listado
     @classmethod
-    def set_listado(cls, listado):
+    def setListado(cls, listado):
         cls._listado=listado
 
-    def get_colorEscamas(self):
+    def getColorEscamas(self):
         return self._colorEscamas
-    def set_colorEscamas(self, colorEscamas):
+    def setColorEscamas(self, colorEscamas):
         self._colorEscamas=colorEscamas
 
-    def get_largoCola(self):
+    def getLargoCola(self):
         return self._largoCola
-    def set_largoCola(self, largoCola):
+    def setLargoCola(self, largoCola):
         self._largoCola=largoCola
 
     @classmethod
