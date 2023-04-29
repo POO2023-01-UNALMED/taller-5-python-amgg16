@@ -60,7 +60,7 @@ class Animal:
         return "Mamiferos: ",cantmamifero,"\n", "Aves: ",cantave,"\n", "Reptiles: ",cantreptil,"\n", "Peces: ",cantpez,"\n", "Anfibios: ",cantanfibio
 	
     def toString(self):
-        if self.get_zona()!=None: ######
+        if self.getZona()!=None: ######
             return "Mi nombre es ", self.getNombre(),", tengo una edad de " ,self.getEdad(), ", habito en ",self.getHabitat()," y mi genero es ",self.getGenero(),", la zona en la que me ubico es ",self._zona.getNombre(),", en el ",self.getZona().getZoo().getNombre()
         else: 
             return "Mi nombre es ", self.getNombre(),", tengo una edad de " ,self.getEdad(), ", habito en ",self.getHabitat()," y mi genero es ",self.getGenero()
